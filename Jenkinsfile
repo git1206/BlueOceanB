@@ -9,8 +9,9 @@ pipeline {
 
     stage('Hello Girish') {
       steps {
-        echo 'Hello World'
+        
         input(message: 'Deploy to QA?', ok: 'Yes')
+        echo 'Hello World'
       }
     }
 
