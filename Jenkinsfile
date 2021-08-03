@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Hello Girish') {
+      steps {
+        echo 'Hello World'
+      }
+    }
+
   }
 }
